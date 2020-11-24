@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+
+body, html {
+    font-family: Roboto, sans-serif
+}
+
+body {
+    margin: 0
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px
+}
+
+.cart, .title, span {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #000
+}
+
+.cart {
+    margin-right: 20px;
+    cursor: pointer
+}
+
+.title {
+    letter-spacing: .4rem
+}
+
+.card[data-v-65b9918e] {
+    width: 33.33%;
+    cursor: pointer;
+    transition: transform .8s;
+    margin: 20px
+}
+
+.card[data-v-65b9918e]:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 7px 2px #000
+}
+
+.card img[data-v-65b9918e] {
+    width: 100%;
+    height: 60%;
+    display: block
+}
+
+.card_content[data-v-65b9918e] {
+    padding: 15px
+}
+
+.all_cards[data-v-0bd70320] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.card[data-v-58762bda] {
+    width: 33.33%;
+    transition: transform .7s;
+    margin: 0 auto;
+    box-shadow: 2px 2px 7px 2px #000
+}
+
+.card[data-v-58762bda]:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 2px 7px 2px #000
+}
+
+.card img[data-v-58762bda] {
+    height: 62%;
+    width: 100%
+}
+
+.card_content[data-v-58762bda] {
+    padding: 15px
+}
+
+button[data-v-58762bda] {
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    outline: none
+}
+
+.card[data-v-3e38755a] {
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 7px 2px #000
+}
+
+.card img[data-v-3e38755a] {
+    height: 60%;
+    width: 100%
+}
+
+.card_content[data-v-3e38755a] {
+    padding: 15px
+}
+
+.buttons[data-v-3e38755a] {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+button[data-v-3e38755a] {
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #ffb6c1;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #000;
+    cursor: pointer;
+    outline: none
+}
+
+.d-flex[data-v-d0ed240c] {
+    display: flex;
+    flex-wrap: wrap
+}
